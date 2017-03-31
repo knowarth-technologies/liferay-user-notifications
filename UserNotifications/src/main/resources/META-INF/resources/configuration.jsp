@@ -14,7 +14,7 @@
 
 
     <aui:fieldset>
-    	<aui:input lable ="notificationURL" name="notificationURL" type="text" value="${notificationURL}"/>
+    	<aui:input lable ="notificationURL" name="notificationURL" type="text" value="<%=GetterUtil.getString(portletPreferences.getValue("notificationURL", "")) %>"/>
     	
     </aui:fieldset>
     <aui:button-row>
