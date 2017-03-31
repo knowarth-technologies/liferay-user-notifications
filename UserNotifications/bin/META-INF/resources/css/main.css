@@ -1,0 +1,71 @@
+#portlet-row {
+    background: #365d9e !important;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count {
+	margin: 18px 10px;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count .icon-bell {
+	background: url("../images/notification-icon.png");
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count .icon-bell:before {
+	content: "";
+	background: url("../images/notification-icon.png");
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count + .btn-group {
+	margin: 0;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count .icon-bell {
+	font-size: 28px;
+	color: #fff;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .notify-count .sticker-sm {
+	left: 20px;
+	top: 55px;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .btn-link.btn-profile {
+	padding: 21px 0;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .btn-link.btn-profile > span {
+	float: left;
+	margin-right: 10px;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .btn-link.btn-profile .icon-chevron-down {
+	line-height: 35px;
+	color: #ffffff;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .profile-dropdown {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	padding: 0;
+	border: 0 none;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .profile-dropdown.dropdown-menu > li > a {
+	padding: 8px 20px;
+	background: #f8ef29;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .profile-dropdown.dropdown-menu > li > a:focus {
+	background: #fff;
+}
+
+.portlet-boundary_com_knowarth_notifications_portlet_UserNotificationPortlet_ .btn-group .profile-dropdown.dropdown-menu > li > a .icon-power-off {
+	display: none;
+}
